@@ -1,0 +1,34 @@
+# DCH Bot Requirements
+# Python 3.8+
+
+# Core dependencies
+requests==2.31.0
+python-dotenv==1.0.0
+
+# Scheduling and task management
+aiopg==1.3.0
+apscheduler==3.10.4
+
+# Data processing
+pandas==2.0.3
+numpy==1.24.3
+
+# API client
+aiohttp==3.8.5
+
+# Logging and monitoring
+python-json-logger==2.0.7
+
+# Configuration management
+pydantic==2.0.3
+
+# Database
+psycopg2-binary==2.9.7
+SQLAlchemy==2.0.20
+
+# Development dependencies (optional)
+# pytest==7.4.0
+# pytest-asyncio==0.21.1
+# black==23.7.0
+# flake8==6.0.0
+# mypy==1.4.1
